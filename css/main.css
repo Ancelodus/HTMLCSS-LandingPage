@@ -135,5 +135,6 @@ section {
 .account {
     text-align: right;
     padding: 15px;
-    font: 14px #364147;
+    font-size: 14px; 
+    color: #364147;
 }
