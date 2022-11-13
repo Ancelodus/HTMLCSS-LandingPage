@@ -29,7 +29,7 @@ section {
         flex: 1;
 }
 
-.algin-center {
+.align-center {
     align-items: center;
 }
 
@@ -42,19 +42,20 @@ section {
 }
 
 .btn {
-    cursor: auto;
+    cursor: crosshair;
     border: none;
     padding: 6px 12px 6px 12px;
     border-radius: 3px;
-    height: 1.4;
+    line-height: 1.4;
 }
+
 .btn-default {
-    color: white
-    background-color: #faa541
+    color:white;
+    background-color: #faa541;
 }
 
 .btn-primary {
-    color: white;
+    color:white;
     background-color: #364147;
 }
 
@@ -63,8 +64,8 @@ section {
     padding: 6px 12px 6px 12px;
     border: 1px;
     border-color: #a0a0a0;
-    color: #8598a2
-    height: 1.4;
+    color: #8598a2;
+    line-height: 1.4;
 }
 
 .text-light {
@@ -79,5 +80,5 @@ section {
 
 .text-primary {
     font-size: 16px;
-    color: #364147
+    color: #364147;
 }
