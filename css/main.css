@@ -241,7 +241,7 @@ section {
     position: relative;
 }
 
-.full-banner::before {
+.full-banner:before {
     content: "";
     position: absolute;
     border: 19px solid;
@@ -277,7 +277,7 @@ section {
     line-height: 1;
 }
 
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
     content: "";
     width: 100px;
     height: 1px;
@@ -312,5 +312,11 @@ footer {
     z-index: 0;
     min-height: 330px;
     background-color: #000000;
+}
+
+footer:after {
+    content: "";
+    background-color: #a0a0a0;
+
 }
 
